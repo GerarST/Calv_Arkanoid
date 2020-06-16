@@ -98,6 +98,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Instruction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instruction.Designer.cs">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -112,8 +118,17 @@
     <Compile Include="Scores.Designer.cs">
       <DependentUpon>Scores.cs</DependentUpon>
     </Compile>
+    <Compile Include="TopScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopScores.Designer.cs">
+      <DependentUpon>TopScores.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instruction.resx">
+      <DependentUpon>Instruction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -129,6 +144,9 @@
     </Compile>
     <EmbeddedResource Include="Scores.resx">
       <DependentUpon>Scores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopScores.resx">
+      <DependentUpon>TopScores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

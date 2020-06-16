@@ -1,11 +1,13 @@
-﻿namespace ProyectoPoo
+﻿using System.ComponentModel;
+
+namespace ProyectoPoo
 {
-    partial class Form1
+    partial class TopScores
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -30,36 +32,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menu1 = new ProyectoPoo.Menu();
+                new System.ComponentModel.ComponentResourceManager(typeof(TopScores));
+            this.scores1 = new ProyectoPoo.Scores();
             this.SuspendLayout();
             // 
-            // menu1
+            // scores1
             // 
-            this.menu1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.menu1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.menu1.Location = new System.Drawing.Point(0, 0);
-            this.menu1.Name = "menu1";
-            this.menu1.Size = new System.Drawing.Size(1045, 606);
-            this.menu1.TabIndex = 0;
+            this.scores1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.scores1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("scores1.BackgroundImage")));
+            this.scores1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.scores1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scores1.Location = new System.Drawing.Point(0, 0);
+            this.scores1.Name = "scores1";
+            this.scores1.Size = new System.Drawing.Size(561, 690);
+            this.scores1.TabIndex = 0;
             // 
-            // Form1
+            // TopScores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1045, 606);
-            this.Controls.Add(this.menu1);
+            this.ClientSize = new System.Drawing.Size(561, 690);
+            this.Controls.Add(this.scores1);
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
-            this.Text = "Arkanoid";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Name = "TopScores";
+            this.Text = "TopScores";
             this.ResumeLayout(false);
         }
 
-        private ProyectoPoo.Menu menu1;
-
         #endregion
+
+        private ProyectoPoo.Scores scores1;
     }
 }

@@ -10,24 +10,27 @@ namespace ProyectoPoo
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bttn_Play_Click(object sender, EventArgs e)
         {
             throw new System.NotImplementedException();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void bttn_Ins_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            var WindowIns = new Instruction();
+            WindowIns.ShowDialog();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void bttn_TopScores_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+           var WindowTopScores = new TopScores();
+           WindowTopScores.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void bttn_Close_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            Application.Exit();
         }
+        
     }
 }
