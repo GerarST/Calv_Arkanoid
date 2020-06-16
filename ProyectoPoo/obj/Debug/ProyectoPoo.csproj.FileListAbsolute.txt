@@ -1,0 +1,12 @@
+C:\Users\diego\RiderProjects\ProyectoPoo\bin\Debug\ProyectoPoo.exe.config
+C:\Users\diego\RiderProjects\ProyectoPoo\bin\Debug\ProyectoPoo.pdb
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.csprojAssemblyReference.cache
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.Properties.Resources.resources
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.GenerateResource.cache
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.CoreCompileInputs.cache
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.exe
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.pdb
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.Form1.resources
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.Menu.resources
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.CopyComplete
+C:\Users\diego\RiderProjects\ProyectoPoo\obj\Debug\ProyectoPoo.Scores.resources
