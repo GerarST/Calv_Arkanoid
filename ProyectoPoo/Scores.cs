@@ -18,7 +18,7 @@ namespace ProyectoPoo
         {
             try
             {
-                var dt = ConnectionDB.ExecuteQuery($"SELECT --aqui nombre jugador--, --aqui su puntaje--" +
+                var dt = DBConnection.ExecuteQuery($"SELECT --aqui nombre jugador--, --aqui su puntaje--" +
                                                    "FROM --aqui nombre de la tabla--");
                 dataGridView1.DataSource = dt;
                 //En caso de que funcione se mostrara
