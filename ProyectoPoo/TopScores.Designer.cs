@@ -39,7 +39,7 @@ namespace ProyectoPoo
             // scores1
             // 
             this.scores1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.scores1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("scores1.BackgroundImage")));
+            this.scores1.BackColor = System.Drawing.Color.Black;
             this.scores1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.scores1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scores1.Location = new System.Drawing.Point(0, 0);

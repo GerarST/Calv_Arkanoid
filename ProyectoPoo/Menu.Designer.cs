@@ -37,9 +37,10 @@ namespace ProyectoPoo
             this.bttn_Close = new System.Windows.Forms.Button();
             this.bttn_TopScores = new System.Windows.Forms.Button();
             this.bttn_Ins = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.bttn_Play = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -54,8 +55,8 @@ namespace ProyectoPoo
             this.tableLayoutPanel1.Controls.Add(this.bttn_Close, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.bttn_TopScores, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.bttn_Ins, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.bttn_Play, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -124,22 +125,6 @@ namespace ProyectoPoo
             this.bttn_Ins.UseVisualStyleBackColor = false;
             this.bttn_Ins.Click += new System.EventHandler(this.bttn_Ins_Click);
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(1074, 137);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ARKANOID";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // bttn_Play
             // 
             this.bttn_Play.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -157,6 +142,19 @@ namespace ProyectoPoo
             this.bttn_Play.UseVisualStyleBackColor = false;
             this.bttn_Play.Click += new System.EventHandler(this.bttn_Play_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1074, 131);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -165,10 +163,10 @@ namespace ProyectoPoo
             this.Name = "Menu";
             this.Size = new System.Drawing.Size(1080, 689);
             this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
         #endregion
@@ -177,5 +175,6 @@ namespace ProyectoPoo
         private System.Windows.Forms.Button bttn_Ins;
         private System.Windows.Forms.Button bttn_Play;
         private System.Windows.Forms.Button bttn_Close;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

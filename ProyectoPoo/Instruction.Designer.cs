@@ -293,6 +293,7 @@ namespace ProyectoPoo
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "Instruction";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Instrucciones";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox5)).EndInit();
