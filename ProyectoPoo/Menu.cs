@@ -12,7 +12,8 @@ namespace ProyectoPoo
 
         private void bttn_Play_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            var WindowStart = new Arkanoid();
+            WindowStart.Show(); //por el momento lo he dejado asi me quede un poco bloqueado con la manera de desplegar el contenido 
         }
 
         private void bttn_Ins_Click(object sender, EventArgs e)

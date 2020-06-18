@@ -29,8 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menu1 = new ProyectoPoo.Menu();
             this.SuspendLayout();
             // 
@@ -40,15 +39,15 @@
             this.menu1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menu1.Location = new System.Drawing.Point(0, 0);
             this.menu1.Name = "menu1";
-            this.menu1.Size = new System.Drawing.Size(1045, 606);
+            this.menu1.Size = new System.Drawing.Size(896, 525);
             this.menu1.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1045, 606);
+            this.ClientSize = new System.Drawing.Size(896, 525);
             this.Controls.Add(this.menu1);
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "Form1";
