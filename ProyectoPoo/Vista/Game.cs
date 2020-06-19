@@ -58,5 +58,9 @@ namespace ProyectoPoo
                 }
             }
         }
+        private void Game_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
