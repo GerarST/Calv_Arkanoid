@@ -1,11 +1,11 @@
 # Calv_Arkanoid
 ## Integrantes
 
-* Diego Portillo 00210719
+* Diego Eduardo Abrego 00044919
 
-* Diego Abrego 00044919
+* Diego Andres Portillo 00210719
 
-* Stanley Flores 00204919
+* Gerardo Stanley Flores 00204919
 
 ## IDE
 JetBrains Rider
