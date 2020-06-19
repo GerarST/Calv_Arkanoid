@@ -1,14 +1,15 @@
 ﻿using System.Data;
 using Npgsql;
-namespace ProyectoPoo
+namespace ProyectoPoo.Controlador
 {
     public static class DBConnection
     {
-        private static string host = "ec2-52-44-55-63.compute-1.amazonaws.com";
+        /*Connection string for the local database*/
+        private static string host = "127.0.0.1";
         private static int port = 5432;
-        private static string user = "qnoejccxklwpjh";
-        private static string password = "e371383926ac58c0b0a6d2ced5d2adafd79523be4340ea28f00f45af1f1a5010";
-        private static string database = "dankgm1b8mvqap";
+        private static string user = "postgres";
+        private static string password = "uca";
+        private static string database = "proyecto";
         
         private static string sConnection = $"Host={host}; Port={port}; User Id={user}; Password={password}; Database={database};";
 
@@ -25,7 +26,7 @@ namespace ProyectoPoo
             return ds.Tables[0];
         }
 
-        public static void ExecuteAction(string action)
+        public static void ExecuteNonQuery(string action)
         {
             NpgsqlConnection conn = new NpgsqlConnection(sConnection);
             

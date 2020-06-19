@@ -91,62 +91,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arkanoid.cs">
+    <Compile Include="Controlador\Bloque.cs" />
+    <Compile Include="Controlador\DBConnection.cs" />
+    <Compile Include="Controlador\Gamedata.cs" />
+    <Compile Include="Controlador\Player.cs" />
+    <Compile Include="Modelo\ControlArkanoid.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Arkanoid.Designer.cs">
-      <DependentUpon>Arkanoid.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ControlArkanoid.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ControlArkanoid.Designer.cs">
+    <Compile Include="Modelo\ControlArkanoid.Designer.cs">
       <DependentUpon>ControlArkanoid.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBConnection.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Instruction.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Instruction.Designer.cs">
-      <DependentUpon>Instruction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="Modelo\Menu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
+    <Compile Include="Modelo\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo\Scores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modelo\Scores.Designer.cs">
+      <DependentUpon>Scores.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scores.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Scores.Designer.cs">
-      <DependentUpon>Scores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TopScores.cs">
+    <Compile Include="Vista\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TopScores.Designer.cs">
+    <Compile Include="Vista\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Instruction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Instruction.Designer.cs">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\PlayerNickname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\PlayerNickname.Designer.cs">
+      <DependentUpon>PlayerNickname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\TopScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\TopScores.Designer.cs">
       <DependentUpon>TopScores.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Arkanoid.resx">
-      <DependentUpon>Arkanoid.cs</DependentUpon>
+    <EmbeddedResource Include="Modelo\ControlArkanoid.resx">
+      <DependentUpon>ControlArkanoid.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Instruction.resx">
-      <DependentUpon>Instruction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
+    <EmbeddedResource Include="Modelo\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelo\Scores.resx">
+      <DependentUpon>Scores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -157,10 +163,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Scores.resx">
-      <DependentUpon>Scores.cs</DependentUpon>
+    <EmbeddedResource Include="Vista\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TopScores.resx">
+    <EmbeddedResource Include="Vista\Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Instruction.resx">
+      <DependentUpon>Instruction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\PlayerNickname.resx">
+      <DependentUpon>PlayerNickname.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\TopScores.resx">
       <DependentUpon>TopScores.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

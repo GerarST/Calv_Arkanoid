@@ -12,8 +12,9 @@ namespace ProyectoPoo
 
         private void bttn_Play_Click(object sender, EventArgs e)
         {
-            var WindowStart = new Arkanoid();
-            WindowStart.Show(); //por el momento lo he dejado asi me quede un poco bloqueado con la manera de desplegar el contenido 
+            var PlJugar = new PlayerNickname();
+            PlJugar.Show();
+            ParentForm.Hide();
         }
 
         private void bttn_Ins_Click(object sender, EventArgs e)
@@ -32,6 +33,5 @@ namespace ProyectoPoo
         {
             Application.Exit();
         }
-        
     }
 }
