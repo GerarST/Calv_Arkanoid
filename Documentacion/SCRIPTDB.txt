@@ -1,0 +1,20 @@
+CREATE TABLE player
+(
+    nickname character varying(10) COLLATE pg_catalog."default",
+    idplayer integer NOT NULL DEFAULT nextval('"Player_idplayer_seq"'::regclass),
+    CONSTRAINT "Player_pkey" PRIMARY KEY (idplayer)
+)
+
+CREATE TABLE score
+(
+    idscore integer NOT NULL DEFAULT nextval('"Score_idscore_seq"'::regclass),
+    nscore integer NOT NULL,
+    idplayer integer NOT NULL,
+    CONSTRAINT "Score_pkey" PRIMARY KEY (idscore),
+    CONSTRAINT "fk_Score_player" FOREIGN KEY (idplayer)
+        REFERENCES public.player (idplayer) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
