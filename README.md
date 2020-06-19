@@ -7,6 +7,8 @@
 
 * Stanley Flores 00204919
 
+## IDE
+JetBrains Rider
 ## FAQ
 
 -  __pregunta1__
