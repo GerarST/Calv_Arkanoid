@@ -116,7 +116,9 @@ C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.Core
 C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.CopyComplete
 C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.exe
 C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.pdb
-C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.Arkanoid.resources
 C:\Users\porti\Desktop\Clon\Calv_Arkanoid\ProyectoPoo\obj\Debug\ProyectoPoo.PlayerNickname.resources
 C:\Users\porti\Desktop\Clon\Calv_Arkanoid\ProyectoPoo\obj\Debug\ProyectoPoo.Game.resources
 C:\Users\porti\Desktop\Clon\Calv_Arkanoid\ProyectoPoo\obj\Debug\ProyectoPoo.ControlArkanoid.resources
+C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.ControlArkanoid.resources
+C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.Game.resources
+C:\Users\diego\Desktop\ProyectoPOO\ProyectoPoo\obj\Debug\ProyectoPoo.PlayerNickname.resources

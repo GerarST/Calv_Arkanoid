@@ -15,31 +15,32 @@ namespace ProyectoPoo
         public void ControlArkanoid_Load(EventHandler pictureBox1_Click)
         {
             pictureBox1.Click += pictureBox1_Click;
+            picselected = pictureBox1;
         }
 
         private PictureBox picselected = null;
+        private bool ifselected = false;
 
         public void pictureBox1_Click(object sender, EventHandler e)
         {
-            picselected = (PictureBox) sender;
+            ifselected = true;
         }
 
-        protected override bool ProcessCmdKey(ref System.Windows.Forms.Message msg, System.Windows.Forms.Keys keyData)
+        private void pictureBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            if (picselected == null) 
-                return base.ProcessCmdKey(ref msg, keyData);
-            switch (keyData)
-            {
-                case Keys.Left:
-                    picselected.Left += 10;
-                    break;
-                case Keys.Right:
-                    //no se por que empezo a fallar el right 
-                    picselected.Right -= 10;
-                    break;
+            if (ifselected){
             }
-
-            return base.ProcessCmdKey(ref msg, keyData);
+            else{
+                switch (e.KeyCode)
+                {
+                    case Keys.Left:
+                        picselected.Left += 10;
+                        break;
+                    case Keys.Right:
+                        picselected.Left -= 10;
+                        break;
+                }
+            }
         }
     }
 }
