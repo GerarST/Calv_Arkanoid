@@ -79,7 +79,7 @@ namespace ProyectoPoo
             this.lblNickname.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.lblNickname, 2);
             this.lblNickname.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNickname.Font = new System.Drawing.Font("Unispace", 36F, System.Drawing.FontStyle.Bold,
+            this.lblNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblNickname.ForeColor = System.Drawing.Color.White;
             this.lblNickname.Location = new System.Drawing.Point(3, 0);
@@ -94,8 +94,8 @@ namespace ProyectoPoo
             this.bttn_Volver.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.bttn_Volver.BackColor = System.Drawing.Color.DimGray;
             this.bttn_Volver.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bttn_Volver.Font = new System.Drawing.Font("Unispace", 26.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.bttn_Volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.bttn_Volver.ForeColor = System.Drawing.Color.White;
             this.bttn_Volver.Location = new System.Drawing.Point(3, 349);
             this.bttn_Volver.Name = "bttn_Volver";
@@ -110,8 +110,8 @@ namespace ProyectoPoo
             this.bttn_Continuar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.bttn_Continuar.BackColor = System.Drawing.Color.DimGray;
             this.bttn_Continuar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bttn_Continuar.Font = new System.Drawing.Font("Unispace", 26.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.bttn_Continuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.bttn_Continuar.ForeColor = System.Drawing.Color.White;
             this.bttn_Continuar.Location = new System.Drawing.Point(702, 349);
             this.bttn_Continuar.Name = "bttn_Continuar";
@@ -126,12 +126,12 @@ namespace ProyectoPoo
             this.txtNickname.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNickname.BackColor = System.Drawing.Color.DimGray;
             this.tableLayoutPanel1.SetColumnSpan(this.txtNickname, 2);
-            this.txtNickname.Font = new System.Drawing.Font("Unispace", 8.999999F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtNickname.ForeColor = System.Drawing.Color.White;
-            this.txtNickname.Location = new System.Drawing.Point(470, 75);
+            this.txtNickname.Location = new System.Drawing.Point(470, 76);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(459, 22);
+            this.txtNickname.Size = new System.Drawing.Size(459, 21);
             this.txtNickname.TabIndex = 3;
             // 
             // PlayerNickname
