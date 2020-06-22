@@ -12,6 +12,7 @@ namespace ProyectoPoo
         private string nickname;
         private CustomPictureBox[,] cpb;
         private PictureBox ball;
+        
         public Game(string pnickname)
         {
             InitializeComponent();
@@ -19,6 +20,17 @@ namespace ProyectoPoo
             Width = ClientSize.Width;
             WindowState = FormWindowState.Maximized;
             this.nickname = pnickname;
+        }
+        
+        //Evita parpadeos en el form
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;
+                return handleParam;
+            }
         }
 
         private void Game_Load(object sender, EventArgs e)
@@ -29,6 +41,8 @@ namespace ProyectoPoo
             Player.lives = 3;
             Player.score = 0;
         }
+        
+        //Verifica si hau nuevo jugador
         private void VerifyPlayer()
         {
             var gamers = DBConnection.ExecuteQuery("select nickname from player");
@@ -63,10 +77,12 @@ namespace ProyectoPoo
                 }
             }
         }
+        
         private void Game_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+        
         private void timerUpdater_Tick(object sender, EventArgs e)
         {
             //Change labels for score and lives

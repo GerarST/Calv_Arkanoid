@@ -24,6 +24,7 @@ namespace ProyectoPoo
             int platformHeight = (Height - 2*bordersizeWidth)*3 /100;
             int platformWidth = (Width - 2*bordersizeWidth)*10 / 100;
             int heightDistance = (Height - 2*bordersizeWidth)*1 /100;
+            platform.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Player2.png");
             platform.BackgroundImageLayout = ImageLayout.Stretch;
             platform.Width = platformWidth;
             platform.Height = platformHeight;
@@ -32,6 +33,7 @@ namespace ProyectoPoo
             //Add ball
             int ballHeight = (Height - 2*bordersizeWidth)*4 /100;
             int ballWidth = (Width - 2*bordersizeWidth)*4 / 100;
+            ball.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Ball.png");
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             ball.Width = ballWidth;
             ball.Height = ballHeight;
@@ -41,11 +43,12 @@ namespace ProyectoPoo
             location=platform.Left;
         }
         
+        //Carga la matriz de los bloques
         private void LoadBlocks()
         {
             int xAxis = 13;
             int yAxis = 5;
-
+            
             int BsWidth = (Width - (xAxis - 5)) / xAxis;
             int BsHeight = (int) (Height * 0.3) / yAxis;
             
@@ -58,12 +61,11 @@ namespace ProyectoPoo
                     cpb [i , j] = new CustomPictureBox();
 
                     if (i == 0)
-                        cpb[i, j].Golpes = 3;
-                    
+                        cpb[i, j].Hits = 3;
                     else if (i == 1 || i == 2)
-                        cpb[i, j].Golpes = 2;
+                        cpb[i, j].Hits = 2;
                     else
-                        cpb[i, j].Golpes = 1;
+                        cpb[i, j].Hits = 1;
 
                     cpb[i, j].Height = BsHeight;
                     cpb[i, j].Width = BsWidth;
@@ -75,7 +77,7 @@ namespace ProyectoPoo
                     //Color de bloque dependiendo de la fila y los golpes
                     if (i == 0)
                     {
-                        switch (cpb[i,j].Golpes)
+                        switch (cpb[i,j].Hits)
                         {
                             case 3:
                                 cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Red.png");
@@ -93,7 +95,7 @@ namespace ProyectoPoo
                     }
                     else if (i == 1 || i == 2)
                     {
-                        switch (cpb[i,j].Golpes)
+                        switch (cpb[i,j].Hits)
                         {
                             case 2: 
                                 cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Blue.png");
@@ -107,7 +109,7 @@ namespace ProyectoPoo
                     }
                     else
                     {
-                        switch (cpb[i,j].Golpes)
+                        switch (cpb[i,j].Hits)
                         {
                             case 1:
                                 cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Green.png");
@@ -115,12 +117,12 @@ namespace ProyectoPoo
                                 break;
                         }
                     }
-
                     cpb[i, j].Tag = "Block";
                     Controls.Add(cpb[i,j]);
                 }
             }
         }
+
         //Movement of the platform and ball before space bar is pressed
         private void PlatformBall_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
@@ -141,6 +143,7 @@ namespace ProyectoPoo
                     break;
             }
         }
+        
         //Timer for platform movement
         private void platformTimer_Tick(object sender, EventArgs e)
         {
@@ -171,8 +174,10 @@ namespace ProyectoPoo
             ball.Left += Gamedata.dirX;
             ball.Top += Gamedata.dirY;
             
-            bounceBall();
+            bounceOfBall();
         }
+        
+        //Presionar tecla espacio para comenzar
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
@@ -180,7 +185,9 @@ namespace ProyectoPoo
                 Gamedata.gameInitiated = true;
             }
         }
-        private void bounceBall()
+        
+        //Bounces of ball
+        private void bounceOfBall()
         {
             if (ball.Bottom > Height)
             {
@@ -221,12 +228,67 @@ namespace ProyectoPoo
                     {
                         if (ball.Bounds.IntersectsWith(cpb[i,j].Bounds))
                         {
-                            cpb[i, j].Golpes--;
-                            if (cpb[i, j].Golpes == 0)
+                            cpb[i, j].Hits--;
+                            //Cambiar color de bloque/Astillar bloque
+                            if (i == 0)
+                            {
+                                switch (cpb[i,j].Hits)
+                                {
+                                    case 3:
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Red.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                    case 2: 
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Oranje.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                    case 1:
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/BrokenOranje.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                }
+                            }
+                            else if (i == 1 || i == 2)
+                            {
+                                switch (cpb[i,j].Hits)
+                                {
+                                    case 2: 
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Blue.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                    case 1:
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/BrokenBlue.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                }
+                            }
+                            else
+                            {
+                                switch (cpb[i,j].Hits)
+                                {
+                                    case 1:
+                                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Resources/Sprites/Blocks/Green.png");
+                                        cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+                                        break;
+                                }
+                            }
+                            
+                            //Romper bloque y asignar puntos
+                            if (cpb[i, j].Hits == 0)
                             {
                                 Controls.Remove(cpb[i, j]);
                                 cpb[i, j] = null;
-                                Player.score += 100;
+                                switch (i)
+                                {
+                                    case 0: Player.score += 300;
+                                        break;
+                                    case 1:
+                                        case 2: Player.score += 200;
+                                        break;
+                                        case 3:
+                                            case 4: Player.score += 100;
+                                            break;
+                                }
                             }
                             Gamedata.dirY = -Gamedata.dirY;
 

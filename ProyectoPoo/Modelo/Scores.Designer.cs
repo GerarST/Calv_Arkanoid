@@ -151,8 +151,8 @@ namespace ProyectoPoo
             // 
             this.lblScore10.BackColor = System.Drawing.Color.Transparent;
             this.lblScore10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore10.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblScore10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore10.ForeColor = System.Drawing.Color.Blue;
             this.lblScore10.Location = new System.Drawing.Point(355, 547);
             this.lblScore10.Name = "lblScore10";
@@ -165,8 +165,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer10.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer10.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer10.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer10.Location = new System.Drawing.Point(179, 547);
             this.lblPlayer10.Name = "lblPlayer10";
@@ -179,7 +179,7 @@ namespace ProyectoPoo
             // 
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label30.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label30.ForeColor = System.Drawing.Color.Blue;
             this.label30.Location = new System.Drawing.Point(3, 547);
@@ -193,7 +193,7 @@ namespace ProyectoPoo
             // 
             this.lblScore9.BackColor = System.Drawing.Color.Transparent;
             this.lblScore9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore9.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore9.ForeColor = System.Drawing.Color.Blue;
             this.lblScore9.Location = new System.Drawing.Point(355, 506);
@@ -207,8 +207,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer9.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer9.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer9.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer9.Location = new System.Drawing.Point(179, 506);
             this.lblPlayer9.Name = "lblPlayer9";
@@ -221,7 +221,7 @@ namespace ProyectoPoo
             // 
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label27.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label27.ForeColor = System.Drawing.Color.Blue;
             this.label27.Location = new System.Drawing.Point(3, 506);
@@ -235,7 +235,7 @@ namespace ProyectoPoo
             // 
             this.lblScore8.BackColor = System.Drawing.Color.Transparent;
             this.lblScore8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore8.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore8.ForeColor = System.Drawing.Color.Blue;
             this.lblScore8.Location = new System.Drawing.Point(355, 465);
@@ -249,8 +249,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer8.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer8.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer8.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer8.Location = new System.Drawing.Point(179, 465);
             this.lblPlayer8.Name = "lblPlayer8";
@@ -263,7 +263,7 @@ namespace ProyectoPoo
             // 
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label24.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label24.ForeColor = System.Drawing.Color.Blue;
             this.label24.Location = new System.Drawing.Point(3, 465);
@@ -277,7 +277,7 @@ namespace ProyectoPoo
             // 
             this.lblScore7.BackColor = System.Drawing.Color.Transparent;
             this.lblScore7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore7.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore7.ForeColor = System.Drawing.Color.Blue;
             this.lblScore7.Location = new System.Drawing.Point(355, 424);
@@ -291,8 +291,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer7.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer7.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer7.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer7.Location = new System.Drawing.Point(179, 424);
             this.lblPlayer7.Name = "lblPlayer7";
@@ -305,7 +305,7 @@ namespace ProyectoPoo
             // 
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label21.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label21.ForeColor = System.Drawing.Color.Blue;
             this.label21.Location = new System.Drawing.Point(3, 424);
@@ -319,7 +319,7 @@ namespace ProyectoPoo
             // 
             this.lblScore6.BackColor = System.Drawing.Color.Transparent;
             this.lblScore6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore6.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore6.ForeColor = System.Drawing.Color.Blue;
             this.lblScore6.Location = new System.Drawing.Point(355, 383);
@@ -333,8 +333,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer6.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer6.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer6.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer6.Location = new System.Drawing.Point(179, 383);
             this.lblPlayer6.Name = "lblPlayer6";
@@ -347,7 +347,7 @@ namespace ProyectoPoo
             // 
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label18.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label18.ForeColor = System.Drawing.Color.Blue;
             this.label18.Location = new System.Drawing.Point(3, 383);
@@ -361,7 +361,7 @@ namespace ProyectoPoo
             // 
             this.lblScore5.BackColor = System.Drawing.Color.Transparent;
             this.lblScore5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore5.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore5.ForeColor = System.Drawing.Color.Blue;
             this.lblScore5.Location = new System.Drawing.Point(355, 342);
@@ -375,8 +375,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer5.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer5.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer5.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer5.Location = new System.Drawing.Point(179, 342);
             this.lblPlayer5.Name = "lblPlayer5";
@@ -389,7 +389,7 @@ namespace ProyectoPoo
             // 
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label15.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label15.ForeColor = System.Drawing.Color.Blue;
             this.label15.Location = new System.Drawing.Point(3, 342);
@@ -403,7 +403,7 @@ namespace ProyectoPoo
             // 
             this.lblScore4.BackColor = System.Drawing.Color.Transparent;
             this.lblScore4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore4.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore4.ForeColor = System.Drawing.Color.Blue;
             this.lblScore4.Location = new System.Drawing.Point(355, 301);
@@ -417,8 +417,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer4.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer4.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer4.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer4.Location = new System.Drawing.Point(179, 301);
             this.lblPlayer4.Name = "lblPlayer4";
@@ -431,7 +431,7 @@ namespace ProyectoPoo
             // 
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label12.ForeColor = System.Drawing.Color.Blue;
             this.label12.Location = new System.Drawing.Point(3, 301);
@@ -445,7 +445,7 @@ namespace ProyectoPoo
             // 
             this.lblScore3.BackColor = System.Drawing.Color.Transparent;
             this.lblScore3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore3.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore3.ForeColor = System.Drawing.Color.Blue;
             this.lblScore3.Location = new System.Drawing.Point(355, 260);
@@ -459,8 +459,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer3.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer3.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer3.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer3.Location = new System.Drawing.Point(179, 260);
             this.lblPlayer3.Name = "lblPlayer3";
@@ -473,7 +473,7 @@ namespace ProyectoPoo
             // 
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label9.ForeColor = System.Drawing.Color.Blue;
             this.label9.Location = new System.Drawing.Point(3, 260);
@@ -487,7 +487,7 @@ namespace ProyectoPoo
             // 
             this.lblScore2.BackColor = System.Drawing.Color.Transparent;
             this.lblScore2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore2.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore2.ForeColor = System.Drawing.Color.Blue;
             this.lblScore2.Location = new System.Drawing.Point(355, 219);
@@ -501,8 +501,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer2.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer2.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer2.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer2.Location = new System.Drawing.Point(179, 219);
             this.lblPlayer2.Name = "lblPlayer2";
@@ -515,7 +515,7 @@ namespace ProyectoPoo
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label6.ForeColor = System.Drawing.Color.Blue;
             this.label6.Location = new System.Drawing.Point(3, 219);
@@ -529,7 +529,7 @@ namespace ProyectoPoo
             // 
             this.lblScore1.BackColor = System.Drawing.Color.Transparent;
             this.lblScore1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore1.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore1.ForeColor = System.Drawing.Color.Blue;
             this.lblScore1.Location = new System.Drawing.Point(355, 178);
@@ -543,8 +543,8 @@ namespace ProyectoPoo
             // 
             this.lblPlayer1.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer1.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lblPlayer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer1.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer1.Location = new System.Drawing.Point(179, 178);
             this.lblPlayer1.Name = "lblPlayer1";
@@ -557,7 +557,7 @@ namespace ProyectoPoo
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.Blue;
             this.label3.Location = new System.Drawing.Point(3, 178);
@@ -571,7 +571,7 @@ namespace ProyectoPoo
             // 
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScore.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblScore.ForeColor = System.Drawing.Color.Blue;
             this.lblScore.Location = new System.Drawing.Point(355, 119);
@@ -585,7 +585,7 @@ namespace ProyectoPoo
             // 
             this.lblPlayer.BackColor = System.Drawing.Color.Transparent;
             this.lblPlayer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPlayer.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lblPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lblPlayer.ForeColor = System.Drawing.Color.Blue;
             this.lblPlayer.Location = new System.Drawing.Point(179, 119);
@@ -599,7 +599,7 @@ namespace ProyectoPoo
             // 
             this.lbltop.BackColor = System.Drawing.Color.Transparent;
             this.lbltop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbltop.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.lbltop.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbltop.ForeColor = System.Drawing.Color.Blue;
             this.lbltop.Location = new System.Drawing.Point(3, 119);
