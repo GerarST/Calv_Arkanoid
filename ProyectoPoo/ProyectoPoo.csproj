@@ -91,7 +91,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controlador\Bloque.cs" />
     <Compile Include="Controlador\CustomPictureBox.cs" />
     <Compile Include="Controlador\DBConnection.cs" />
     <Compile Include="Controlador\Gamedata.cs" />
