@@ -9,6 +9,8 @@ namespace ProyectoPoo
     {
         private CustomPictureBox[,] cpb;
         private int location = 0;
+        //counter of blocks left in the matrix
+        private int remainingblocks=0;
         public ControlArkanoid()
         {
             InitializeComponent();
@@ -20,35 +22,19 @@ namespace ProyectoPoo
             //Add blocks
             LoadBlocks();
             //Add Platform
-            int bordersizeWidth =  SystemInformation.BorderSize.Width;
-            int platformHeight = (Height - 2*bordersizeWidth)*3 /100;
-            int platformWidth = (Width - 2*bordersizeWidth)*10 / 100;
-            int heightDistance = (Height - 2*bordersizeWidth)*1 /100;
-            platform.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Player2.png");
-            platform.BackgroundImageLayout = ImageLayout.Stretch;
-            platform.Width = platformWidth;
-            platform.Height = platformHeight;
-            platform.Left = (Width - 2*bordersizeWidth - platform.Width)/2;
-            platform.Top = Height - 2*bordersizeWidth - platformHeight - heightDistance;
+            LoadPlatform();
             //Add ball
-            int ballHeight = (Height - 2*bordersizeWidth)*4 /100;
-            int ballWidth = (Width - 2*bordersizeWidth)*4 / 100;
-            ball.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Ball.png");
-            ball.BackgroundImageLayout = ImageLayout.Stretch;
-            ball.Width = ballWidth;
-            ball.Height = ballHeight;
-            ball.Left = (Width - 2*bordersizeWidth - ballWidth)/2;
-            ball.Top = platform.Top-ballHeight;
-            
+            LoadBall();
             location=platform.Left;
         }
-        
-        //Carga la matriz de los bloques
+
+        #region Loading/Creating components
+        //Loading Block Matrix
         private void LoadBlocks()
         {
             int xAxis = 13;
             int yAxis = 5;
-            
+            remainingblocks = xAxis * yAxis;
             int BsWidth = (Width - (xAxis - 5)) / xAxis;
             int BsHeight = (int) (Height * 0.3) / yAxis;
             
@@ -74,7 +60,7 @@ namespace ProyectoPoo
                     cpb[i, j].Left = j * BsWidth;
                     cpb[i, j].Top = i * BsHeight;
                     
-                    //Color de bloque dependiendo de la fila y los golpes
+                    //Block color
                     if (i == 0)
                     {
                         switch (cpb[i,j].Hits)
@@ -122,7 +108,35 @@ namespace ProyectoPoo
                 }
             }
         }
+        private void LoadPlatform()
+        {
+            int bordersizeWidth =  SystemInformation.BorderSize.Width;
+            int platformHeight = (Height - 2*bordersizeWidth)*3 /100;
+            int platformWidth = (Width - 2*bordersizeWidth)*10 / 100;
+            int heightDistance = (Height - 2*bordersizeWidth)*1 /100;
+            platform.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Player2.png");
+            platform.BackgroundImageLayout = ImageLayout.Stretch;
+            platform.Width = platformWidth;
+            platform.Height = platformHeight;
+            platform.Left = (Width - 2*bordersizeWidth - platform.Width)/2;
+            platform.Top = Height - 2*bordersizeWidth - platformHeight - heightDistance;
+        }
 
+        private void LoadBall()
+        {
+            int bordersizeWidth =  SystemInformation.BorderSize.Width;
+            int ballHeight = (Height - 2*bordersizeWidth)*4 /100;
+            int ballWidth = (Width - 2*bordersizeWidth)*4 / 100;
+            ball.BackgroundImage = Image.FromFile("../../../Resources/Sprites/Ball.png");
+            ball.BackgroundImageLayout = ImageLayout.Stretch;
+            ball.Width = ballWidth;
+            ball.Height = ballHeight;
+            ball.Left = (Width - 2*bordersizeWidth - ballWidth)/2;
+            ball.Top = platform.Top-ballHeight;
+        }
+        
+        #endregion
+        
         //Movement of the platform and ball before space bar is pressed
         private void PlatformBall_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
@@ -166,6 +180,7 @@ namespace ProyectoPoo
             }
         }
         
+        //Timer for ball movement
         private void BallTimer_Tick_1(object sender, EventArgs e)
         {
             if (!Gamedata.gameInitiated)
@@ -177,7 +192,7 @@ namespace ProyectoPoo
             bounceOfBall();
         }
         
-        //Presionar tecla espacio para comenzar
+        //Spacebar detecter
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
@@ -185,29 +200,28 @@ namespace ProyectoPoo
                 Gamedata.gameInitiated = true;
             }
         }
-        
-        //Bounces of ball
+
+        #region Code for the bounces of the ball
         private void bounceOfBall()
         {
             if (ball.Bottom > Height)
             {
-                if (Player.lives == 0)
+                if (Player.lives == 1)
                 {
                     //Game is over
-                    var Menu = new Form1();
+                    Player.lives -= 1;
                     ParentForm.Close();
-                    Menu.Show();
                 }
                 else
                 {
-                    int bordersizeWidth =  SystemInformation.BorderSize.Width;
                     //Restarting game
+                    int bordersizeWidth =  SystemInformation.BorderSize.Width;
                     Player.lives -= 1;
                     int ballHeight = (Height - 2*bordersizeWidth)*4 /100;
                     Gamedata.gameInitiated = false;
                     ball.Top = platform.Top-ballHeight;
-                    Gamedata.dirX = 3;
-                    Gamedata.dirY = -4;
+                    Gamedata.dirX = Gamedata.initXValue;
+                    Gamedata.dirY = Gamedata.initYValue;
                 }
             }
 
@@ -217,8 +231,14 @@ namespace ProyectoPoo
                 return;
             }
             
+            if (ball.Top < SystemInformation.BorderSize.Height)
+            {
+                Gamedata.dirY = -Gamedata.dirY;
+            }
+            
             if (ball.Bounds.IntersectsWith(platform.Bounds))
                 Gamedata.dirY *= -1;
+            
 
             for (int i = 4; i >= 0; i--)
             {
@@ -229,7 +249,7 @@ namespace ProyectoPoo
                         if (ball.Bounds.IntersectsWith(cpb[i,j].Bounds))
                         {
                             cpb[i, j].Hits--;
-                            //Cambiar color de bloque/Astillar bloque
+                            //Change color of block
                             if (i == 0)
                             {
                                 switch (cpb[i,j].Hits)
@@ -273,21 +293,29 @@ namespace ProyectoPoo
                                 }
                             }
                             
-                            //Romper bloque y asignar puntos
+                            //Break block and add points
                             if (cpb[i, j].Hits == 0)
                             {
                                 Controls.Remove(cpb[i, j]);
                                 cpb[i, j] = null;
+                                remainingblocks -= 1;
                                 switch (i)
                                 {
-                                    case 0: Player.score += 300;
+                                    case 0: 
+                                        Player.score += 500;
                                         break;
                                     case 1:
-                                        case 2: Player.score += 200;
+                                        case 2: Player.score += 250;
                                         break;
-                                        case 3:
-                                            case 4: Player.score += 100;
-                                            break;
+                                    case 3:
+                                    case 4: 
+                                        Player.score += 100;
+                                        break;
+                                }
+                                //Player has destroyed all blocks
+                                if (remainingblocks == 0)
+                                {
+                                    ParentForm.Close();
                                 }
                             }
                             Gamedata.dirY = -Gamedata.dirY;
@@ -298,5 +326,7 @@ namespace ProyectoPoo
                 }
             }
         }
+        #endregion
+
     }
 }

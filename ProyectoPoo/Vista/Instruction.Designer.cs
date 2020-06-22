@@ -110,7 +110,7 @@ namespace ProyectoPoo
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(306, 133);
             this.label9.TabIndex = 14;
-            this.label9.Text = "Para mover la plataforma se utilizan las flechas del teclado";
+            this.label9.Text = "Movimiento con flechas y se inicia el juego con la barra espaciadora";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox5
@@ -158,7 +158,7 @@ namespace ProyectoPoo
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(305, 103);
             this.label7.TabIndex = 10;
-            this.label7.Text = "x300";
+            this.label7.Text = "x500";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
@@ -184,7 +184,7 @@ namespace ProyectoPoo
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(305, 103);
             this.label5.TabIndex = 8;
-            this.label5.Text = "x200";
+            this.label5.Text = "x250";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4

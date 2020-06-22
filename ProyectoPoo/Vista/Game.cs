@@ -35,14 +35,13 @@ namespace ProyectoPoo
 
         private void Game_Load(object sender, EventArgs e)
         {
-            //Veryfiying if new player or not
+            //Verifying if new player or not
             VerifyPlayer();
             Player.nickname = nickname;
             Player.lives = 3;
             Player.score = 0;
         }
         
-        //Verifica si hau nuevo jugador
         private void VerifyPlayer()
         {
             var gamers = DBConnection.ExecuteQuery("select nickname from player");
@@ -80,14 +79,15 @@ namespace ProyectoPoo
         
         private void Game_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            var Gameover = new GameOver();
+            Gameover.Show();
         }
         
         private void timerUpdater_Tick(object sender, EventArgs e)
         {
             //Change labels for score and lives
             lblScore.Text = Convert.ToString(Player.score);
-            lblLives.Text = Convert.ToString(Player.lives);
+            lblLives.Text = "x"+Convert.ToString(Player.lives);
         }
     }
 }

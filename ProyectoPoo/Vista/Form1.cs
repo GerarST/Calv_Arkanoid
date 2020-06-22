@@ -24,22 +24,7 @@ namespace ProyectoPoo
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("¿Seguro que desea salir?", "Arkanoid", MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question) == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
-            else
-            {
-                try
-                {
-                    e.Cancel = false;
-                }
-                catch (Exception exc)
-                {
-                    MessageBox.Show("Ha sucedido un error...", "Arkanoid", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
+            
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
