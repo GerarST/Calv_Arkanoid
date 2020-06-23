@@ -93,7 +93,10 @@
   <ItemGroup>
     <Compile Include="Controlador\CustomPictureBox.cs" />
     <Compile Include="Controlador\DBConnection.cs" />
+    <Compile Include="Controlador\DBErrorException.cs" />
     <Compile Include="Controlador\Gamedata.cs" />
+    <Compile Include="Controlador\InvalidCharacterForNicknameException.cs" />
+    <Compile Include="Controlador\InvalidNullNicknameException.cs" />
     <Compile Include="Controlador\Player.cs" />
     <Compile Include="Modelo\ControlArkanoid.cs">
       <SubType>UserControl</SubType>

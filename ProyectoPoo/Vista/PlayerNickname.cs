@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using ProyectoPoo.Controlador;
 
 namespace ProyectoPoo
 {
@@ -22,6 +23,15 @@ namespace ProyectoPoo
         //Continue to the game
         private void bttn_Continuar_Click(object sender, EventArgs e)
         {
+            if (txtNickname.Text.Length > 10)
+            {
+                throw new InvalidCharacterForNicknameException();
+            }
+
+            if (txtNickname == null)
+            {
+                throw new InvalidNullNicknameException();
+            }
             var NGame = new Game(txtNickname.Text.ToString());
             NGame.Show();
             Close();

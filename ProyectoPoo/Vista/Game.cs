@@ -36,7 +36,14 @@ namespace ProyectoPoo
         private void Game_Load(object sender, EventArgs e)
         {
             //Verifying if new player or not
-            VerifyPlayer();
+            try
+            {
+                VerifyPlayer();
+            }
+            catch (Exception exception)
+            {
+                throw new DBErrorException();
+            }
             Player.nickname = nickname;
             Player.lives = 3;
             Player.score = 0;

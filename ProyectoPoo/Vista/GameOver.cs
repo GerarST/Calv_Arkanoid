@@ -26,7 +26,14 @@ namespace ProyectoPoo
             lbl_score.Text = Convert.ToString(Player.score);
             lbl_plus_extra.Text = "+" + calculateExtraPoints();
             lbl_final_score.Text = calculateFinalScore();
-            InsertintoDB();
+            try
+            {
+                InsertintoDB();
+            }
+            catch (Exception exception)
+            {
+                throw new DBErrorException();
+            }
         }
 
         private void bttn_back_Click(object sender, EventArgs e)
