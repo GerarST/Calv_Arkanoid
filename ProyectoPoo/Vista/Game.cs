@@ -10,8 +10,6 @@ namespace ProyectoPoo
     public partial class Game : Form
     {
         private string nickname;
-        private CustomPictureBox[,] cpb;
-        private PictureBox ball;
         
         public Game(string pnickname)
         {
