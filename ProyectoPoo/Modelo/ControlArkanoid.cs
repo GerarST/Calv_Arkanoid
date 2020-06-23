@@ -209,8 +209,10 @@ namespace ProyectoPoo
                 if (Player.lives == 1)
                 {
                     //Game is over
+                    
                     Player.lives -= 1;
                     ParentForm.Close();
+                    Gamedata.gameInitiated = false;
                 }
                 else
                 {
@@ -316,6 +318,7 @@ namespace ProyectoPoo
                                 if (remainingblocks == 0)
                                 {
                                     ParentForm.Close();
+                                    Gamedata.gameInitiated = false;
                                 }
                             }
                             Gamedata.dirY = -Gamedata.dirY;
