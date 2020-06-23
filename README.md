@@ -13,7 +13,7 @@ JetBrains Rider
 
 -  __¿Como puedo ver mi puntaje?__
 
-_Al terminar una partida tu puntaje total será mostrado, específicamente en el aparte con nombre: "total score", si este puntaje esta entre los 10 mejores, se mostrara en el ventana de los mejores puntajes al presionar el botón "mejores puntajes" en el menu principal. _
+_Al terminar una partida tu puntaje total será mostrado, específicamente en el aparte con nombre: "total score", si este puntaje esta entre los 10 mejores, se mostrara en el ventana de los mejores puntajes al presionar el botón "mejores puntajes" en el menu principal._
 
 - __¿Como se inicia el juego?__
 
