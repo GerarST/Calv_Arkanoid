@@ -11,9 +11,9 @@
 JetBrains Rider
 ## FAQ
 
--  __pregunta1__
+-  __¿Donde puedo ver mi puntaje?__
 
-_respuesta1_
+_Al terminar una partida tu puntaje total será mostrado, si este puntaje esta entre los 10 mejores, se mostrara en el top 10_
 
 - __pregunta2__
 
