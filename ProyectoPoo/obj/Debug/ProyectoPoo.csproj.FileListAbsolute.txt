@@ -164,3 +164,4 @@ C:\Users\porti\Desktop\Clon\CKago\ProyectoPoo\obj\Debug\ProyectoPoo.csproj.CopyC
 C:\Users\porti\Desktop\Clon\CKago\ProyectoPoo\obj\Debug\ProyectoPoo.exe
 C:\Users\porti\Desktop\Clon\CKago\ProyectoPoo\obj\Debug\ProyectoPoo.pdb
 C:\Users\porti\Desktop\Clon\CKago\ProyectoPoo\obj\Debug\ProyectoPoo.GameOver.resources
+C:\Users\GerarST\Documents\Workspaces\Calv_Arkanoid\ProyectoPoo\obj\Debug\ProyectoPoo.GameOver.resources

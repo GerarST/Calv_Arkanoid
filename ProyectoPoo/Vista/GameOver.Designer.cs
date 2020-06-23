@@ -81,8 +81,8 @@ namespace ProyectoPoo
             this.tableLayoutPanel1.Controls.Add(this.lbl_plus_extra, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.lbl_bye, 0, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Font = new System.Drawing.Font("Unispace", 14.25F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -101,7 +101,7 @@ namespace ProyectoPoo
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1372, 763);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1370, 749);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // bttn_back
@@ -110,12 +110,12 @@ namespace ProyectoPoo
             this.bttn_back.BackColor = System.Drawing.Color.Transparent;
             this.bttn_back.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bttn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttn_back.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold,
+            this.bttn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.bttn_back.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bttn_back.Location = new System.Drawing.Point(3, 687);
+            this.bttn_back.Location = new System.Drawing.Point(3, 675);
             this.bttn_back.Name = "bttn_back";
-            this.bttn_back.Size = new System.Drawing.Size(337, 73);
+            this.bttn_back.Size = new System.Drawing.Size(336, 71);
             this.bttn_back.TabIndex = 2;
             this.bttn_back.Text = "VOLVER AL MENU";
             this.bttn_back.UseVisualStyleBackColor = false;
@@ -126,12 +126,12 @@ namespace ProyectoPoo
             this.lbl_title.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.lbl_title, 4);
             this.lbl_title.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_title.Font = new System.Drawing.Font("Unispace", 36F, System.Drawing.FontStyle.Bold,
+            this.lbl_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_title.ForeColor = System.Drawing.Color.White;
             this.lbl_title.Location = new System.Drawing.Point(3, 0);
             this.lbl_title.Name = "lbl_title";
-            this.lbl_title.Size = new System.Drawing.Size(1366, 114);
+            this.lbl_title.Size = new System.Drawing.Size(1364, 112);
             this.lbl_title.TabIndex = 3;
             this.lbl_title.Text = "FIN DEL JUEGO";
             this.lbl_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,12 +140,12 @@ namespace ProyectoPoo
             // 
             this.lbl_player.BackColor = System.Drawing.Color.Transparent;
             this.lbl_player.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_player.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_player.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_player.ForeColor = System.Drawing.Color.White;
-            this.lbl_player.Location = new System.Drawing.Point(3, 114);
+            this.lbl_player.Location = new System.Drawing.Point(3, 112);
             this.lbl_player.Name = "lbl_player";
-            this.lbl_player.Size = new System.Drawing.Size(337, 114);
+            this.lbl_player.Size = new System.Drawing.Size(336, 112);
             this.lbl_player.TabIndex = 4;
             this.lbl_player.Text = "JUGADOR:";
             this.lbl_player.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -154,12 +154,12 @@ namespace ProyectoPoo
             // 
             this.lbl_tLives.BackColor = System.Drawing.Color.Transparent;
             this.lbl_tLives.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_tLives.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_tLives.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_tLives.ForeColor = System.Drawing.Color.White;
-            this.lbl_tLives.Location = new System.Drawing.Point(3, 228);
+            this.lbl_tLives.Location = new System.Drawing.Point(3, 224);
             this.lbl_tLives.Name = "lbl_tLives";
-            this.lbl_tLives.Size = new System.Drawing.Size(337, 114);
+            this.lbl_tLives.Size = new System.Drawing.Size(336, 112);
             this.lbl_tLives.TabIndex = 5;
             this.lbl_tLives.Text = "VIDAS RESTANTES:";
             this.lbl_tLives.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -168,12 +168,12 @@ namespace ProyectoPoo
             // 
             this.lbl_tScore.BackColor = System.Drawing.Color.Transparent;
             this.lbl_tScore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_tScore.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_tScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_tScore.ForeColor = System.Drawing.Color.White;
-            this.lbl_tScore.Location = new System.Drawing.Point(3, 342);
+            this.lbl_tScore.Location = new System.Drawing.Point(3, 336);
             this.lbl_tScore.Name = "lbl_tScore";
-            this.lbl_tScore.Size = new System.Drawing.Size(337, 114);
+            this.lbl_tScore.Size = new System.Drawing.Size(336, 112);
             this.lbl_tScore.TabIndex = 6;
             this.lbl_tScore.Text = "SCORE:";
             this.lbl_tScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,12 +182,12 @@ namespace ProyectoPoo
             // 
             this.lbl_tFScore.BackColor = System.Drawing.Color.Transparent;
             this.lbl_tFScore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_tFScore.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_tFScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_tFScore.ForeColor = System.Drawing.Color.White;
-            this.lbl_tFScore.Location = new System.Drawing.Point(3, 456);
+            this.lbl_tFScore.Location = new System.Drawing.Point(3, 448);
             this.lbl_tFScore.Name = "lbl_tFScore";
-            this.lbl_tFScore.Size = new System.Drawing.Size(337, 114);
+            this.lbl_tFScore.Size = new System.Drawing.Size(336, 112);
             this.lbl_tFScore.TabIndex = 7;
             this.lbl_tFScore.Text = "FINAL SCORE:";
             this.lbl_tFScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -196,12 +196,12 @@ namespace ProyectoPoo
             // 
             this.lbl_nickname.BackColor = System.Drawing.Color.Transparent;
             this.lbl_nickname.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_nickname.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_nickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_nickname.ForeColor = System.Drawing.Color.White;
-            this.lbl_nickname.Location = new System.Drawing.Point(346, 114);
+            this.lbl_nickname.Location = new System.Drawing.Point(345, 112);
             this.lbl_nickname.Name = "lbl_nickname";
-            this.lbl_nickname.Size = new System.Drawing.Size(337, 114);
+            this.lbl_nickname.Size = new System.Drawing.Size(336, 112);
             this.lbl_nickname.TabIndex = 8;
             this.lbl_nickname.Text = "NOMBREDELJ";
             this.lbl_nickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,12 +210,12 @@ namespace ProyectoPoo
             // 
             this.lbl_lives.BackColor = System.Drawing.Color.Transparent;
             this.lbl_lives.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_lives.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_lives.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_lives.ForeColor = System.Drawing.Color.White;
-            this.lbl_lives.Location = new System.Drawing.Point(346, 228);
+            this.lbl_lives.Location = new System.Drawing.Point(345, 224);
             this.lbl_lives.Name = "lbl_lives";
-            this.lbl_lives.Size = new System.Drawing.Size(337, 114);
+            this.lbl_lives.Size = new System.Drawing.Size(336, 112);
             this.lbl_lives.TabIndex = 9;
             this.lbl_lives.Text = "x0";
             this.lbl_lives.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,12 +224,12 @@ namespace ProyectoPoo
             // 
             this.lbl_score.BackColor = System.Drawing.Color.Transparent;
             this.lbl_score.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_score.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_score.ForeColor = System.Drawing.Color.White;
-            this.lbl_score.Location = new System.Drawing.Point(346, 342);
+            this.lbl_score.Location = new System.Drawing.Point(345, 336);
             this.lbl_score.Name = "lbl_score";
-            this.lbl_score.Size = new System.Drawing.Size(337, 114);
+            this.lbl_score.Size = new System.Drawing.Size(336, 112);
             this.lbl_score.TabIndex = 10;
             this.lbl_score.Text = "10000";
             this.lbl_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -238,12 +238,12 @@ namespace ProyectoPoo
             // 
             this.lbl_final_score.BackColor = System.Drawing.Color.Transparent;
             this.lbl_final_score.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_final_score.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lbl_final_score.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_final_score.ForeColor = System.Drawing.Color.White;
-            this.lbl_final_score.Location = new System.Drawing.Point(346, 456);
+            this.lbl_final_score.Location = new System.Drawing.Point(345, 448);
             this.lbl_final_score.Name = "lbl_final_score";
-            this.lbl_final_score.Size = new System.Drawing.Size(337, 114);
+            this.lbl_final_score.Size = new System.Drawing.Size(336, 112);
             this.lbl_final_score.TabIndex = 11;
             this.lbl_final_score.Text = "11000";
             this.lbl_final_score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -251,12 +251,12 @@ namespace ProyectoPoo
             // lbl_tExtra
             // 
             this.lbl_tExtra.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_tExtra.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
+            this.lbl_tExtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_tExtra.ForeColor = System.Drawing.Color.White;
-            this.lbl_tExtra.Location = new System.Drawing.Point(689, 228);
+            this.lbl_tExtra.Location = new System.Drawing.Point(687, 224);
             this.lbl_tExtra.Name = "lbl_tExtra";
-            this.lbl_tExtra.Size = new System.Drawing.Size(337, 114);
+            this.lbl_tExtra.Size = new System.Drawing.Size(336, 112);
             this.lbl_tExtra.TabIndex = 12;
             this.lbl_tExtra.Text = "x1000";
             this.lbl_tExtra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -264,12 +264,12 @@ namespace ProyectoPoo
             // lbl_extra_points
             // 
             this.lbl_extra_points.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_extra_points.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lbl_extra_points.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_extra_points.ForeColor = System.Drawing.Color.White;
-            this.lbl_extra_points.Location = new System.Drawing.Point(1032, 228);
+            this.lbl_extra_points.Location = new System.Drawing.Point(1029, 224);
             this.lbl_extra_points.Name = "lbl_extra_points";
-            this.lbl_extra_points.Size = new System.Drawing.Size(337, 114);
+            this.lbl_extra_points.Size = new System.Drawing.Size(337, 112);
             this.lbl_extra_points.TabIndex = 13;
             this.lbl_extra_points.Text = "=0000";
             this.lbl_extra_points.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -277,12 +277,12 @@ namespace ProyectoPoo
             // lbl_plus_extra
             // 
             this.lbl_plus_extra.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_plus_extra.Font = new System.Drawing.Font("Unispace", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.lbl_plus_extra.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F,
+                System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_plus_extra.ForeColor = System.Drawing.Color.White;
-            this.lbl_plus_extra.Location = new System.Drawing.Point(689, 342);
+            this.lbl_plus_extra.Location = new System.Drawing.Point(687, 336);
             this.lbl_plus_extra.Name = "lbl_plus_extra";
-            this.lbl_plus_extra.Size = new System.Drawing.Size(337, 114);
+            this.lbl_plus_extra.Size = new System.Drawing.Size(336, 112);
             this.lbl_plus_extra.TabIndex = 14;
             this.lbl_plus_extra.Text = "+0000";
             this.lbl_plus_extra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -292,24 +292,24 @@ namespace ProyectoPoo
             this.lbl_bye.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.SetColumnSpan(this.lbl_bye, 4);
             this.lbl_bye.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_bye.Font = new System.Drawing.Font("Unispace", 36F, System.Drawing.FontStyle.Bold,
+            this.lbl_bye.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.lbl_bye.ForeColor = System.Drawing.Color.White;
-            this.lbl_bye.Location = new System.Drawing.Point(3, 570);
+            this.lbl_bye.Location = new System.Drawing.Point(3, 560);
             this.lbl_bye.Name = "lbl_bye";
-            this.lbl_bye.Size = new System.Drawing.Size(1366, 114);
+            this.lbl_bye.Size = new System.Drawing.Size(1364, 112);
             this.lbl_bye.TabIndex = 15;
             this.lbl_bye.Text = "GRACIAS POR JUGAR!";
             this.lbl_bye.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // GameOver
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1372, 763);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Font = new System.Drawing.Font("Unispace", 14.25F, System.Drawing.FontStyle.Bold,
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);

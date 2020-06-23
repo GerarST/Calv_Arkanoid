@@ -66,11 +66,11 @@ namespace ProyectoPoo
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.69942F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.80347F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.30443F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(933, 519);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -84,7 +84,7 @@ namespace ProyectoPoo
             this.lblNickname.ForeColor = System.Drawing.Color.White;
             this.lblNickname.Location = new System.Drawing.Point(3, 0);
             this.lblNickname.Name = "lblNickname";
-            this.lblNickname.Size = new System.Drawing.Size(460, 173);
+            this.lblNickname.Size = new System.Drawing.Size(460, 123);
             this.lblNickname.TabIndex = 0;
             this.lblNickname.Text = "Nickname:";
             this.lblNickname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -93,13 +93,16 @@ namespace ProyectoPoo
             // 
             this.bttn_Volver.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.bttn_Volver.BackColor = System.Drawing.Color.DimGray;
+            this.bttn_Volver.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("bttn_Volver.BackgroundImage")));
+            this.bttn_Volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttn_Volver.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bttn_Volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F,
                 System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.bttn_Volver.ForeColor = System.Drawing.Color.White;
-            this.bttn_Volver.Location = new System.Drawing.Point(3, 349);
+            this.bttn_Volver.Location = new System.Drawing.Point(3, 426);
             this.bttn_Volver.Name = "bttn_Volver";
-            this.bttn_Volver.Size = new System.Drawing.Size(227, 167);
+            this.bttn_Volver.Size = new System.Drawing.Size(227, 90);
             this.bttn_Volver.TabIndex = 1;
             this.bttn_Volver.Text = "Volver";
             this.bttn_Volver.UseVisualStyleBackColor = false;
@@ -109,13 +112,16 @@ namespace ProyectoPoo
             // 
             this.bttn_Continuar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.bttn_Continuar.BackColor = System.Drawing.Color.DimGray;
+            this.bttn_Continuar.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("bttn_Continuar.BackgroundImage")));
+            this.bttn_Continuar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttn_Continuar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bttn_Continuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F,
                 System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.bttn_Continuar.ForeColor = System.Drawing.Color.White;
-            this.bttn_Continuar.Location = new System.Drawing.Point(702, 349);
+            this.bttn_Continuar.Location = new System.Drawing.Point(702, 426);
             this.bttn_Continuar.Name = "bttn_Continuar";
-            this.bttn_Continuar.Size = new System.Drawing.Size(228, 167);
+            this.bttn_Continuar.Size = new System.Drawing.Size(228, 90);
             this.bttn_Continuar.TabIndex = 2;
             this.bttn_Continuar.Text = "Continuar";
             this.bttn_Continuar.UseVisualStyleBackColor = false;
@@ -124,12 +130,12 @@ namespace ProyectoPoo
             // txtNickname
             // 
             this.txtNickname.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtNickname.BackColor = System.Drawing.Color.DimGray;
+            this.txtNickname.BackColor = System.Drawing.Color.Indigo;
             this.tableLayoutPanel1.SetColumnSpan(this.txtNickname, 2);
             this.txtNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.999999F,
                 System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtNickname.ForeColor = System.Drawing.Color.White;
-            this.txtNickname.Location = new System.Drawing.Point(470, 76);
+            this.txtNickname.Location = new System.Drawing.Point(470, 51);
             this.txtNickname.Name = "txtNickname";
             this.txtNickname.Size = new System.Drawing.Size(459, 21);
             this.txtNickname.TabIndex = 3;
